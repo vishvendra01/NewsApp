@@ -26,3 +26,6 @@ To Run this app get an api key from [News API](https://newsapi.org/) and set tha
 ## Screenshots
 <img src="https://i.imgur.com/tb3EwMt.png" width="25%"></img>
 <img src="https://i.imgur.com/xwS5r2D.png" width="25%"></img>
+
+## MAD Scorecard
+<img src="https://i.imgur.com/xyQk0R1.png" width="55%"></img>
