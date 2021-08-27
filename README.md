@@ -11,6 +11,7 @@ News App is a showcase app for [News Api](https://newsapi.org/) on Android, buil
 * It's uses [Room](https://developer.android.com/topic/libraries/architecture/room) for managing a local SQLite database for offline caching.
 * Uses [Retrofit](https://square.github.io/retrofit/) for making API calls.
 * Uses [Glide](https://github.com/bumptech/glide) for image loading.
+* Uses [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) Dependency injection.
 
 ## Features
 * Displays Top technology news headlines.
