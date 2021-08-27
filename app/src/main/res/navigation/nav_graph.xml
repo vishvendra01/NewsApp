@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/newsListingFragment">
+
+    <fragment
+        android:id="@+id/newsListingFragment"
+        android:name="com.app.newsapp.ui.listing.NewsListingFragment"
+        android:label="NewsListingFragment" >
+        <action
+            android:id="@+id/action_newsListingFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment">
+            <argument
+                android:name="extras_article"
+                app:argType="com.app.newsapp.data.db.entity.NewsArticleEntity"
+                app:nullable="true"
+                android:defaultValue="@null" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.app.newsapp.ui.details.NewsDetailsFragment"
+        android:label="NewsDetailsFragment" />
+</navigation>
