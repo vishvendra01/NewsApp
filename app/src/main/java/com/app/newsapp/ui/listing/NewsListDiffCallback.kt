@@ -6,13 +6,13 @@ import com.app.newsapp.data.db.entity.NewsArticleEntity
 class NewsListDiffCallback : DiffUtil.ItemCallback<NewsArticleEntity>() {
 
     override fun areItemsTheSame(oldItem: NewsArticleEntity, newItem: NewsArticleEntity): Boolean {
-        return oldItem.id == newItem.id
+        return oldItem.author == newItem.author && oldItem.publishedAt == newItem.publishedAt
     }
 
     override fun areContentsTheSame(
         oldItem: NewsArticleEntity,
         newItem: NewsArticleEntity
     ): Boolean {
-        return oldItem == newItem
+        return oldItem.author == newItem.author && oldItem.publishedAt == newItem.publishedAt
     }
 }
