@@ -1,6 +1,6 @@
 <h1>News App</h1>
 
-News App is a showcase app for [News Api](https://newsapi.org/) on Android, built using Kotlin.
+News App is a showcase app for [News API](https://newsapi.org/) on Android, built using Kotlin.
 
 ## Architecture and Tech-stack
 
@@ -15,7 +15,14 @@ News App is a showcase app for [News Api](https://newsapi.org/) on Android, buil
 
 ## Features
 * Displays Top technology news headlines.
-* Search for news (TODO)
 * Works offline by caching data into a database.
 * Supports dark mode.
-* Pagination (TODO)
+* Pagination **(TODO)**
+* Search for news **(TODO)**
+
+## Build Instructions
+To Run this app get an api key from [News API](https://newsapi.org/) and set that to `NEWS_API_KEY` in your `local.properties` file
+
+## Screenshots
+<img src="https://i.imgur.com/tb3EwMt.png" width="25%"></img>
+<img src="https://i.imgur.com/xwS5r2D.png" width="25%"></img>
